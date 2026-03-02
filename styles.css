@@ -20,10 +20,10 @@
 
     border: 1px solid rgb(0, 0, 0);
     padding: 10px;
+    background-color: lightblue;
     margin: 10px;
     color: rgb(9, 101, 143);
     
-
 }
 
 .border-grid{
@@ -33,6 +33,7 @@
     width: 2px; 
     gap: 10px;
     font-size: small;
+    background-color: lightblue;
 }
 
 
@@ -54,4 +55,12 @@
     object-fit: cover;
     font-display: flex;
 
+}
+
+#country-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(0, 102, 161);
+    background-color: lightgray;
 }
