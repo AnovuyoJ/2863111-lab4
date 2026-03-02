@@ -1,0 +1,57 @@
+.spinner{
+
+    padding: 10px;
+    animation: spin 1s linear infinite;
+    border-top: 5px solid black;
+    border-radius: 50%;
+    color : black;
+    height: 40px;
+    width: 40px;
+
+}
+
+ @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    
+}
+
+.county-card{
+
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    color: rgb(9, 101, 143);
+    
+
+}
+
+.border-grid{
+    display: flex;
+    color: rgb(0, 102, 161);
+    height: 2px;
+    width: 2px; 
+    gap: 10px;
+    font-size: small;
+}
+
+
+.error{
+    color:blue;
+
+
+}
+
+.hidden{
+    display: none;
+    color :black;
+
+}
+
+.border-grid img{
+    width: 200px;
+    height: 100px;
+    object-fit: cover;
+    font-display: flex;
+
+}
